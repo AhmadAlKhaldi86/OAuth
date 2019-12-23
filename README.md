@@ -1,4 +1,4 @@
-# OAuth test project with passwordjs.
+# OAuth test project with passportJs.
 
 ```diff
 - OAUTH a way for users to authenticate using 3rd party apps such as facebook google.
