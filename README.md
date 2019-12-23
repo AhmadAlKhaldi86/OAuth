@@ -1,4 +1,4 @@
-# oAuth project 
+# OAuth test project with passwordjs.
 
 #### This application is to test running an application OAUTH scheme authentication.
 #### We will be using passport.js
