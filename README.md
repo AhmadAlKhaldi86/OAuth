@@ -1,5 +1,9 @@
 # OAuth test project with passwordjs.
 
+```diff
+- OAUTH a way for users to authenticate using 3rd party apps such as facebook google.
+```
+
 #### This application is to test running an application OAUTH scheme authentication.
 #### We will be using passport.js
 #### We will be hosting the application in docker container.
