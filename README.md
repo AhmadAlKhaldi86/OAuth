@@ -7,6 +7,8 @@
 #### This application is to test running an application OAUTH scheme authentication.
 #### We will be using passport.js
 #### We will be hosting the application in docker container.
+#### https://github.com/iamshaunjp/oauth-playlist
+
 
 ### Usage:
 - Make sure npm/node and express are installed.
