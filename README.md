@@ -27,5 +27,5 @@
 
 ### Routes
 ```diff
-localhost:8080/ - homepage 
+homePage -> localhost:8080/
 ```
