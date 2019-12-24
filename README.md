@@ -2,6 +2,7 @@
 
 ```diff
 - OAUTH a way for users to authenticate using 3rd party apps such as facebook google.
+- In this project we will use google+ API to authentication users. 
 ```
 
 #### This application is to test running an application OAUTH scheme authentication.
