@@ -33,3 +33,7 @@ loginPage -> localhost:8080/auth/login - Another page that will be visted when c
 logoutPage -> localhost:8080/auth/logout -If user wants to logout.
 Auth-URL -> localhost:8080/auth/google
 ```
+
+
+### Install Passport 
+- npm install passport passport-google-oauth20
