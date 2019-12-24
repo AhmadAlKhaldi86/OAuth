@@ -26,6 +26,10 @@
 - to stop the application RUN --> docker copntainer THEN docker container stop 9e13d736c9d2
 
 ### Routes
+- We dont want our code to look messy so we want to modulerize our code. 
 ```diff
-homePage -> localhost:8080/
+homePage  -> localhost:8080/
+loginPage -> localhost:8080/auth/login - Another page that will be visted when click on login.
+logoutPage -> localhost:8080/auth/logout -If user wants to logout.
+Auth-URL -> localhost:8080/auth/google
 ```
