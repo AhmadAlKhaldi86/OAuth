@@ -1,4 +1,4 @@
-# with docker you can inherint files 
+# with docker you can inherint other images 
 FROM node:latest
 
 WORKDIR /app
