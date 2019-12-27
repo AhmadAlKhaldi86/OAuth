@@ -22,7 +22,8 @@
   - npm/node and 
   - Express
   - Docker
-  - ejs to render a website. npm install ejs 
+  - ejs to render a website. npm install ejs
+  - npm install mongoose
 - Pull this repo and run following to build the image --> docker build -t nodeexpress .
 - Run the container --> docker run -p 3030:8080 -d nodeexpress
 - Open in  chrome --> http://localhost:8080
