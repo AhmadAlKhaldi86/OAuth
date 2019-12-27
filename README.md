@@ -18,12 +18,12 @@
 
 
 ### Usage:
-- Make sures
-  - npm/node and 
-  - Express
+- Make sure
+  - npm/node and Express
   - Docker
   - ejs to render a website. npm install ejs
   - npm install mongoose
+  - npm install passport passport-google-oauth20
 - Pull this repo and run following to build the image --> docker build -t nodeexpress .
 - Run the container --> docker run -p 3030:8080 -d nodeexpress
 - Open in  chrome --> http://localhost:8080
@@ -38,8 +38,3 @@ loginPage -> localhost:8080/auth/login - Another page that will be visted when c
 logoutPage -> localhost:8080/auth/logout -If user wants to logout.
 Auth-URL -> localhost:8080/auth/google
 ```
-
-
-### Install Passport setup 
-- npm install passport passport-google-oauth20
-- 
