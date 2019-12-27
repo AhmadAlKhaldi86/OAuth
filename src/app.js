@@ -1,20 +1,24 @@
+// Require express and create an app instance 
 const express = require('express');
-// Import the routes from another dir
-const authRoutes = require('../routes/auth-routes.js');
-
 const app = new express();
+// Import the routes from another dir/file
+const authRoutes = require('../routes/auth-routes.js');
+// Need to do this to be able to run that file. 
+const passportSetup = require('../config/passport-setup');
 
-
-// setup view engine later will learn 
+// -------------- app setup ------------------//
+// setup view engine to render the webpage.
+// ejs has to  be installed.
 app.set('view engine', 'ejs');
 
+// After import , we want our instance to use the routes.
 // Now you can use the routes using app.use method. 
 app.use('/auth', authRoutes);
 
 
-// setup initial route and render file
-// Now app will be looking at a file called home
-// app.get('/', (req,  res) => res.send('Hello User')); 
+// ---------------- page --------------------//
+
+// Now app will be looking at a file called home under views.
 app.get('/', (req, res) => {
   res.render('home');
 });
