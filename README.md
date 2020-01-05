@@ -17,9 +17,17 @@
 ![](https://github.com/AhmadAlKhaldi86/OAuth/blob/master/assets/Plan.png)
 - Application starts
 - You will go to home page. If you click on login page it will take you to /auth/login URL
-- If you clock on +google it will trigger an event that handles /auth/google
+- If you click on +google it will trigger an event that handles /auth/google
 - We will not talk to google! - we will let passport handle that. 
-- 
+- Then user will grantus permission 
+- Connection will go back to redirect URI /auth/google/redirect
+- All the routes are handled in routes/auth-routes.js
+- Google will provide us back a code that we will use if we want to get info.
+- Passport will take control again and use the code to get profile info.
+- Handled by passport.authenticate('google')
+- Once profile info is done. CallBack function is run.
+- Check if user exist "Already singed in with us before"
+
 ### Usage:
 - Make sure
   - npm/node and Express
