@@ -14,7 +14,7 @@
 ### Plan
 - We will be talking and retriving info from google. 
 - Check image below where yellow shows where we are going to use passport
-!()[]
+!()[https://github.com/AhmadAlKhaldi86/OAuth/blob/master/assets/Plan.png]
 
 
 ### Usage:
