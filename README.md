@@ -36,12 +36,17 @@
   - ejs to render a website. npm install ejs
   - npm install mongoose
   - npm install passport passport-google-oauth20
-- Build and Run:
+- Build and Run in Docker: 
+```diff
++ docker will not run now since we dont have mongo runing in docker
+- run it locally
+```
   - Pull this repo and run following to build the image --> docker build -t nodeexpress .
   - Run the container --> docker run -p 3030:8080 -d nodeexpress
   - Open in  chrome --> http://localhost:8080
   - to stop the application RUN --> docker copntainer THEN docker container stop 9e13d736c9d2
-
+- Run with node locally:
+  - node src/app.js
 ### Routes
 - We dont want our code to look messy so we want to modulerize our code. 
 ```diff
