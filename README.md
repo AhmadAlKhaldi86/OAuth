@@ -15,8 +15,11 @@
 - We will be talking and retriving info from google. 
 - Check image below where yellow shows where we are going to use passport
 ![](https://github.com/AhmadAlKhaldi86/OAuth/blob/master/assets/Plan.png)
-
-
+- Application starts
+- You will go to home page. If you click on login page it will take you to /auth/login URL
+- If you clock on +google it will trigger an event that handles /auth/google
+- We will not talk to google! - we will let passport handle that. 
+- 
 ### Usage:
 - Make sure
   - npm/node and Express
