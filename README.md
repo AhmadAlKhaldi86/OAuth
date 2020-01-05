@@ -26,7 +26,7 @@
 - Passport will take control again and use the code to get profile info.
 - Handled by passport.authenticate('google')
 - Once profile info is done. CallBack function is run.
-- Check if user exist "Already singed in with us before"
+- Check if user exist "Already singed in with us before" . If not create new user.
 
 ### Usage:
 - Make sure
