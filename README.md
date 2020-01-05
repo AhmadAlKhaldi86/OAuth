@@ -41,6 +41,7 @@
 + docker will not run now since we dont have mongo runing in docker
 - run it locally
 ```
+
   - Pull this repo and run following to build the image --> docker build -t nodeexpress .
   - Run the container --> docker run -p 3030:8080 -d nodeexpress
   - Open in  chrome --> http://localhost:8080
