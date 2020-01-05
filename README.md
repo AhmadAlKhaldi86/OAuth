@@ -30,16 +30,17 @@
 -  //////////////////// Section 2 - Not Manditory ////////////////////// 
 
 ### Usage:
-- Make sure
+- pre-req:
   - npm/node and Express
   - Docker
   - ejs to render a website. npm install ejs
   - npm install mongoose
   - npm install passport passport-google-oauth20
-- Pull this repo and run following to build the image --> docker build -t nodeexpress .
-- Run the container --> docker run -p 3030:8080 -d nodeexpress
-- Open in  chrome --> http://localhost:8080
-- to stop the application RUN --> docker copntainer THEN docker container stop 9e13d736c9d2
+- Build and Run:
+  - Pull this repo and run following to build the image --> docker build -t nodeexpress .
+  - Run the container --> docker run -p 3030:8080 -d nodeexpress
+  - Open in  chrome --> http://localhost:8080
+  - to stop the application RUN --> docker copntainer THEN docker container stop 9e13d736c9d2
 
 ### Routes
 - We dont want our code to look messy so we want to modulerize our code. 
